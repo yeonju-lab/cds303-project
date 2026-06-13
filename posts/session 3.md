@@ -135,7 +135,7 @@ The clustering analysis identified four distinct portfolio groups based on six p
 ### Limitations
 1. Small dataset size
 
-One limitation of this study is the relatively small number of portfolio observations. Some clusters contained only a few portfolios and it may reduce the stability and generalizability of the clustering results.
+One limitation of this study is the relatively small number of portfolio observations. The dataset contains only 63 portfolios. Some clusters contained only a few portfolios and it may reduce the stability and generalizability of the clustering results.
 
 2. PCA visualization limitation
 
