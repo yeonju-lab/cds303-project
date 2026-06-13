@@ -134,12 +134,15 @@ The clustering analysis identified four distinct portfolio groups based on six p
 
 ### Limitations
 1. Small dataset size
+
 One limitation of this study is the relatively small number of portfolio observations. Some clusters contained only a few portfolios and it may reduce the stability and generalizability of the clustering results.
 
 2. PCA visualization limitation
+
 PCA was used to visualize six-dimensional portfolio data in a two-dimensional space. While PCA makes cluster patterns easier to interpret, some information is inevitably lost during dimensionality reduction.
 
 3. Interpretation challenge
+
 A major challenge of this project was interpreting clusters that were created using six performance indicators simultaneously. Since K-means groups portfolios based on overall similarity across all variables, the meaning of each cluster was not immediately obvious. To address this issue, cluster means, feature importance, and local SHAP analyses were used together to better understand the characteristics of each portfolio group.
 
 ## 5. Reflection
