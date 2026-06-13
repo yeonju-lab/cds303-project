@@ -119,11 +119,11 @@ This cluster is characterized by very high systematic risk and total risk, while
 
 ### 4. Cluster #4 : "Aggressive Growth Portfolios"
 - Annual Return ↑↑
+- Total Risk ↑
 - Excess Return ↑
-- Abs. Win Rate ↑
 - Rel. Win Rate ↑
 - Systematic Risk ↑
-- Total Risk ↑
+- Abs. Win Rate ↑
 
 This cluster is characterized by high returns, high excess returns, and strong winning rates. Although the cluster also has relatively high risk, its strong performance indicators suggest an aggressive growth-oriented portfolio.
 
