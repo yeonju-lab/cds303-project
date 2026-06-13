@@ -43,7 +43,7 @@ Portfolios with higher PC2 scores tend to have greater systematic and total risk
 
 #### 1.1 Cluster #1 Interpretation
 - Total Risk: Lower total risk increases the probability of belonging to Cluster #1.
--  Systematic Risk: Lower systematic risk increases the probability of belonging to Cluster #1.
+- Systematic Risk: Lower systematic risk increases the probability of belonging to Cluster #1.
 - Annual Return: Higher annual return increases the probability of belonging to Cluster #1.
 - Relative Win Rate: Higher relative win rate increases the probability of belonging to Cluster #1.
 - Excess Return: Higher excess return increases the probability of belonging to Cluster
@@ -54,13 +54,12 @@ Portfolios with higher PC2 scores tend to have greater systematic and total risk
 <img width="630" height="309" alt="image" src="https://github.com/user-attachments/assets/437122dc-afc8-414c-8d90-ddbc7b9a391e" />
 
 #### 2.1 Cluster #2 Interpretation
-- Annual Return: Higher annual return increases the probability of belonging to Cluster #2.
-- Excess Return: Higher excess return increases the probability of belonging to Cluster #2.
+- Annual Return: Lower annual return increases the probability of belonging to Cluster #2.
+- Excess Return: Lower excess return increases the probability of belonging to Cluster #2.
 - Relative Win Rate: Lower relative win rate increases the probability of belonging to Cluster #2.
 - Absolute Win Rate: Lower absolute win rate increases the probability of belonging to Cluster #2.
-- Systematic Risk: Higher systematic risk slightly increases the probability of belonging to Cluster #2.
-- Total Risk: Higher total risk slightly increases the probability of belonging to Cluster #2.
-
+- Systematic Risk: Has a relatively small influence on Cluster #2.
+- Total Risk: Has a relatively small influence on Cluster #2.
 
 ### 3. Cluster #3
 <img width="621" height="311" alt="image" src="https://github.com/user-attachments/assets/28c9db36-7ab9-43d6-b484-383c5d58c53e" />
@@ -89,34 +88,34 @@ Portfolios with higher PC2 scores tend to have greater systematic and total risk
 ## 3. Labeling Each Cluster & Summary of Each Characteristics
 
 ### 1. Cluster #1 : "Efficient Low-Risks Portfolios"
+- Total Risk ↓
+- Systematic Risk ↓
 - Annual Return ↑
 - Excess Return ↑
-- Abs. Win Rate ↑
 - Rel. Win Rate ↑
-- Systematic Risk ↓
-- Total Risk ↓
+- Abs. Win Rate ↑
 
-This cluster achieves strong returns and winning rates while maintaining relatively low risk. It represents efficient portfolios that balance performance and stability.
+This cluster is characterized by high returns and strong winning rates while maintaining relatively low risk. This suggests an efficient portfolio that balances performance and stability.
 
-### 2. Cluster #2 : "Return-Focused Portfolios"
-- Annual Return ↑↑
-- Excess Return ↑↑
-- Abs. Win Rate ↓
+### 2. Cluster #2 : "Underperforming Portfolios"
+- Annual Return ↓↓
+- Excess Return ↓↓
 - Rel. Win Rate ↓
-- Systematic Risk ↑
-- Total Risk ↑
+- Abs. Win Rate ↓
+- Systematic Risk (weak effect)
+- Total Risk (weak effect)
 
-This cluster is primarily driven by high returns. Although winning rates are relatively lower, portfolios in this group focus on maximizing performance.
+This cluster is mainly characterized by low returns and low winning rates. The SHAP plot shows that low Annual Return, low Excess Return, low Relative Win Rate, and low Absolute Win Rate push portfolios toward this cluster. Risk variables appear less influential for this cluster.
 
 ### 3. Cluster #3 : "High-Risk Portfolios"
-- Annual Return ↑ (slightly)
-- Excess Return ↑ (slightly)
-- Abs. Win Rate ↓
-- Rel. Win Rate ↓
-- Systematic Risk ↑↑
 - Total Risk ↑↑
+- Systematic Risk ↑↑
+- Rel. Win Rate ↓
+- Annual Return ↑
+- Abs. Win Rate ↓
+- Excess Return ↑
 
-This cluster is dominated by very high risk levels. Risk is the strongest factor associated with this cluster, while winning rates remain relatively low.
+This cluster is characterized by very high systematic risk and total risk, while having relatively low winning rates. Although returns can be moderately high, risk is the dominant factor that distinguishes this cluster.
 
 ### 4. Cluster #4 : "Aggressive Growth Portfolios"
 - Annual Return ↑↑
@@ -126,7 +125,7 @@ This cluster is dominated by very high risk levels. Risk is the strongest factor
 - Systematic Risk ↑
 - Total Risk ↑
 
-This cluster combines high returns, high winning rates, and higher risk exposure. It represents portfolios pursuing aggressive growth opportunities.
+This cluster is characterized by high returns, high excess returns, and strong winning rates. Although the cluster also has relatively high risk, its strong performance indicators suggest an aggressive growth-oriented portfolio.
 
 
 ## 4. Discussion & Limitation
