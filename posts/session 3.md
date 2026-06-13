@@ -132,8 +132,7 @@ This cluster is characterized by high returns, high excess returns, and strong w
 ### Discussion
 The clustering analysis identified four distinct portfolio groups based on six performance indicators. When I run the random forest model, it achieved a testing accuracy of 94.7%. It indicates that the identified clusters are well separated. Feature importance analysis showed that 'Annual Return' was the most important variable for distinguishing portfolio groups, followed by Total Risk, Excess Return, and Systematic Risk. This indicates that portfolio performance is primarily differentiated by return characteristics, while risk measures also contribute significantly to cluster formation. Overall, the results support the idea that portfolio evaluation should consider both return and risk rather than just a single performance measure.
 
-### Limitations & Reflection
-#### Limitations
+### Limitations
 1. Small dataset size
 One limitation of this study is the relatively small number of portfolio observations. Some clusters contained only a few portfolios and it may reduce the stability and generalizability of the clustering results.
 
@@ -143,7 +142,7 @@ PCA was used to visualize six-dimensional portfolio data in a two-dimensional sp
 3. Interpretation challenge
 A major challenge of this project was interpreting clusters that were created using six performance indicators simultaneously. Since K-means groups portfolios based on overall similarity across all variables, the meaning of each cluster was not immediately obvious. To address this issue, cluster means, feature importance, and local SHAP analyses were used together to better understand the characteristics of each portfolio group.
 
-#### Reflection
+## 5. Reflection
 One challenge of this project was selecting appropriate variables for clustering and interpreting the resulting clusters. Instead of using all variables in the dataset, I selected six performance indicators (Annual Return, Excess Return, Systematic Risk, Total Risk, Absolute Win Rate, and Relative Win Rate) based on the methodology of the paper. These indicators were chosen because they directly represent portfolio performance from return, risk, and consistency perspective.
 
 Another challenge was visualizing and interpreting six-dimensional portfolio data. Since it is impossible to directly visualize six variables at the same time, PCA was applied to reduce the data into two principal components. The PCA biplot showed that PC1 was mainly associated with return and winnig-rate variables, while PC2 was mainly associated with risk variables. In addition, PC1 and PC2 together explained approsimately 64.7% of the total variance (41.13% +23.53%), suggesting in the original six variables. Therefore, PC1 and PC2 were considered sufficient for visualizing and interpreting portfolio patterns.
